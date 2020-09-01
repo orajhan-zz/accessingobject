@@ -12,7 +12,7 @@ def index():
     bucket = request.args.get('bucket')
 
     # Option 1. config file  ( I am locally testing this out)
-    configfile = "C:\\workspace\\ociFunctions\\Okit_demo\\THG_quick_test\\config"
+    configfile = "Your_Local_path/config"
     config = oci.config.from_file(configfile)
     object_storage = oci.object_storage.ObjectStorageClient(config)
     namespace = object_storage.get_namespace().data
