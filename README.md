@@ -16,3 +16,6 @@ Replace object/bucket name with your own
 ```sh
 http://localhost:9000/image?object=OBJECT_NAME&bucket=BUCKET_NAME
 ```
+
+If this application is running in OCI compute, you can add NSG to only allow the specific IPs to access this application.
+https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/networksecuritygroups.htm
