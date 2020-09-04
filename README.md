@@ -21,3 +21,6 @@ http://localhost:9000/image?object=OBJECT_NAME&bucket=BUCKET_NAME
 
 If this application is running in OCI compute, you can add NSG to only allow the specific IPs to access this application.
 https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/networksecuritygroups.htm
+
+
+If you use request-par.py, it also access to object only from source IP you defined in network source. 
